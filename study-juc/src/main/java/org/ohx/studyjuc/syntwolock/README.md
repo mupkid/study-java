@@ -1,0 +1,1 @@
+验证 static synchronized 方法的锁 和 非static synchronized 方法不是同一个锁。

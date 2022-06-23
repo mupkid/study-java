@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.synStaticMethod;
+package org.ohx.studyjuc.syntwolock;
 
 /**
  * @author mudkip
@@ -22,5 +22,12 @@ public class Service {
             "Thread " + Thread.currentThread().getName() + " enter printB at " + System.currentTimeMillis());
         System.out.println(
             "Thread " + Thread.currentThread().getName() + " leave printB at " + System.currentTimeMillis());
+    }
+
+    synchronized public void printC() {
+        System.out.println(
+            "Thread " + Thread.currentThread().getName() + " enter printC at " + System.currentTimeMillis());
+        System.out.println(
+            "Thread " + Thread.currentThread().getName() + " leave printC at " + System.currentTimeMillis());
     }
 }
