@@ -1,0 +1,1 @@
+本实验测试同步代码块synchronized（lock）对lock上锁后，其他线程只能以同步的方式调用lock中的同步方法。
