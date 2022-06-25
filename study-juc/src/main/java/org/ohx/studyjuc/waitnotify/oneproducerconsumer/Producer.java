@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.waitnotify.waitnotifyonepc;
+package org.ohx.studyjuc.waitnotify.oneproducerconsumer;
 
 /**
  * @author mudkip

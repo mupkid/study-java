@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.waitnotify.waitOld;
+package org.ohx.studyjuc.waitnotify.waitold;
 
 import java.util.ArrayList;
 import java.util.List;
