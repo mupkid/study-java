@@ -1,0 +1,1 @@
+ReentrantLock(boolean fair) 构造方法，可以指定锁是否是公平锁。

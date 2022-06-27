@@ -11,8 +11,8 @@ public class Service {
     private final Lock lock = new ReentrantLock();
 
     public void testMethod() {
+        lock.lock();
         try {
-            lock.lock();
             for (int i = 0; i < 5; i++) {
                 System.out.println("ThreadName=" + Thread.currentThread().getName() + " " + i);
             }
