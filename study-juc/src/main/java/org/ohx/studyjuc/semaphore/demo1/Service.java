@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.semaphore.test1;
+package org.ohx.studyjuc.semaphore.demo1;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;

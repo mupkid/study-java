@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.threadlocal.threadlocaltest1;
+package org.ohx.studyjuc.threadlocal.demo1;
 
 /**
  * @author mudkip

@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.threadlocal.inheritablethreadlocaltest1;
+package org.ohx.studyjuc.threadlocal.inheritablethreadlocaldemo;
 
 /**
  * @author mudkip
