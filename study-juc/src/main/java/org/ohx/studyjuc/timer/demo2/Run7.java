@@ -1,21 +1,22 @@
-package org.ohx.studyjuc.timer.timertest2;
+package org.ohx.studyjuc.timer.demo2;
 
+import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
 /**
- * schedule方法 任务延时
+ * scheduleAtFixedRate方法 延时
  *
  * @author mudkip
- * @date 2022/7/4
+ * @date 2022/7/5
  */
-public class Run4 {
+public class Run7 {
     public static void main(String[] args) {
         long now = System.currentTimeMillis();
         System.out.println("now time " + System.currentTimeMillis());
         Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
+        timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
                 try {
@@ -26,6 +27,6 @@ public class Run4 {
                     e.printStackTrace();
                 }
             }
-        }, 3000, 2000);
+        }, new Date(now), 2000);
     }
 }

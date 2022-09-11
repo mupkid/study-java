@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.timer.timertest1;
+package org.ohx.studyjuc.timer.demo1;
 
 import java.util.Date;
 import java.util.Timer;
