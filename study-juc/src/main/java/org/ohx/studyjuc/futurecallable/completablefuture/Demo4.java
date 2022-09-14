@@ -1,4 +1,4 @@
-package org.ohx.studyjuc.futurecallable.completablefuture.basedemo;
+package org.ohx.studyjuc.futurecallable.completablefuture;
 
 import java.util.concurrent.*;
 
