@@ -1,1 +1,0 @@
-示例使用synchronized(非this对象)

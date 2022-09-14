@@ -1,1 +1,0 @@
-同步 synchronized(class) 代码块的作用其实和 synchronized static 方法的作用一样。
